@@ -1,0 +1,78 @@
+Body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.common {
+    border: 5px solid whitesmoke;
+    position: absolute;
+    color: black;
+}
+.top {
+    top: 5px;
+    left: 5px;
+    right: 0px;
+    height: 100px;
+    border-bottom: 1px solid grey;
+    z-index: 3;
+}
+.topright {
+    top: 5px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid grey;
+    z-index: 4;
+}
+.bottomright{
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+    position: fixed;
+    float: left;
+    z-index: 2;
+}
+/* .left {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    border-right: 1px solid grey;
+} */
+.right {
+    top: 115px;
+    right: 5px;
+    width: 100px;
+    bottom: 0px;
+    position: fixed;
+}
+.main {
+    top: 114px;
+    left: 5px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+.bottom {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    color: slategray;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 1;
+}
+.links{float: left;}
+a {
+    color: mediumaquamarine;
+    font-style: normal;
+    text-decoration: none;
+  }
+a:hover {text-decoration: underline;}
+a:visited {color: gray;}
+h1 {
+    text-decoration: underline;
+    text-align: justify;
+}
